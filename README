@@ -1,0 +1,1 @@
+Start with `docker run -ti --device=/dev/bus/usb rtl433:latest -G`
