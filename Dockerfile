@@ -20,7 +20,6 @@ WORKDIR /tmp
 
 RUN git clone https://github.com/merbanan/rtl_433.git && \
     cd rtl_433 && \
-    git reset --hard $commit_id && \
     mkdir build && \
     cd build && \
     cmake ../ && \
